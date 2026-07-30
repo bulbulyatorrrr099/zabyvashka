@@ -1,16 +1,13 @@
 {
-  "name": "Забывашка-планер",
-  "short_name": "Забывашка",
-  "start_url": "/zabyvashka/",
+  "background_color": "#fcfaf5",
+  "dir": "ltr",
   "display": "standalone",
-  "background_color": "#fbf8f3",
+  "name": "bulbulyatorrrr099.github",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "bulbulyatorrrr099.github",
+  "start_url": "/",
   "theme_color": "#333333",
-  "description": "Твой личный пушистый планер задач с котиком",
-  "icons": [
-    {
-      "src": "https://img.icons8.com/color/512/cat.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+  "id": "/zabyvashka/",
+  "description": "Твой личный пушистый планер задач с котиком"
 }
