@@ -10,13 +10,13 @@
   "theme_color": "#333333",
   "icons": [
     {
-      "src": "https://bulbulyatorrrr099.github.io/zabyvashka/icon.png",
+      "src": "/zabyvashka/icon.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "https://bulbulyatorrrr099.github.io/zabyvashka/icon.png",
+      "src": "/zabyvashka/icon.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
