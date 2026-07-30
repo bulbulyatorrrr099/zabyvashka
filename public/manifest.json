@@ -8,6 +8,13 @@
   "short_name": "Забывашка",
   "start_url": "/zabyvashka/",
   "theme_color": "#333333",
+  "icons": [
+    {
+      "src": "/zabyvashka/vite.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
   "id": "/zabyvashka/",
   "description": "Твой личный пушистый планер задач с котиком"
 }
