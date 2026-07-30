@@ -11,46 +11,8 @@ const SUCCESS_ENCOURAGEMENT = [
   "Просто пушка! Ещё пару таких задач, и можно смело сворачивать горы. ⛰️💥",
   "Легчайшая победа! Запишем это в историю твоих великих подвигов. 📜✨",
   "Потрясающе! Продуктивность уровня «Бог», мозг шепчет слова благодарности. 🧠👑",
-  "Шаг за шагом — и ты на вершине. Эта задача сдалась без боя! 🏔️🐾",
   "Блестяще! Твой внутренний кот довольно жмурится от такой красоты. 🐱💛",
-  "Минус один повод для тревоги. Ты просто мастер закрывать хвосты! 🎯",
-  "Уровень крутизны повышен! Продолжай в том же духе. 🔥😎",
-  "Эту задачу запомнят надолго. Легендарное выполнение! 🌟",
-  "Ура! Ещё один кирпичик в фундамент твоего грандиозного успеха. 🧱🏰",
-  "Похлопай себе! Ты только что затащил эту катку на чистом скилле. 🎮✨",
-  "Вуаля! Задача испарилась, оставив после себя чистый кайф и гордость. ✨",
-  "Ничего себе скорость! Прокрастинация даже испугаться не успела. 🏃‍♂️💨",
-  "Великолепно! Ты официально стал на шаг ближе к заслуженному отдыху. 🛋️🍵",
-  "Мощно! Твои нейроны только что устроили праздничный салют. 🎆🧠",
-  "Задачка повержена, лапки целы, все довольны. Отличная работа! 🐾🎉",
-  "Вот это фокус! Взмахнул рукой — и задача растворилась. Магия вне Хогвартса! 🪄✨",
-  "Идеально! Питомец одобряет, а вселенная кивает в знак уважения. 🌌🐈",
-  "Еще одна победа в копилку. Ты сегодня просто неудержим! 🏆🚀",
-  "Убийца дел и повелитель дедлайнов в деле. Мощнейший респект! 👑",
-  "Прекрасно! Очередная галочка гордо красуется на своем месте. ☑️💖",
-  "Ты превзошел самого себя! Твой внутренний ленивец ушел плакать от зависти. 🦥💧",
-  "Какая красота! Дела тают на глазах, словно мороженое на солнце. 🍦☀️",
-  "Браво! Энергия бьет ключом, продуктивность на высоте. ⚡🚀",
-  "Только что совершено маленькое чудо. Ты справился блестяще! ✨",
-  "Дело сделано, можно выдохнуть и выпить чашечку чего-нибудь вкусного. ☕🌸",
-  "Так чисто и красиво закрыл задачу, глаз радуется! 👀💎",
-  "Уверенная победа над списком дел. Горжусь тобой! 🏅",
-  "Минус задача, плюс сто к карме и настроению. Настоящий профи! 🎯✨",
-  "Огонь! Твой список задач начинает выглядеть испуганным твоей скоростью. 🔥",
-  "Блестящий удар по рутине! Так держать, чемпион. 🥊🏆",
-  "Задачка сопротивлялась, но против твоей воли у нее не было шансов. 💪",
-  "Чудесно! Мозг получил свою порцию эндорфинов, полет нормальный. 🧠🚀",
-  "Красавчик! Закрыл пункт так быстро, что я даже моргнуть не успел. 😉",
-  "Еще один шаг к идеальному порядку в делах. Ты просто супер! 🌈",
-  "Потрясающий темп! Если продолжишь, успеешь сделать вообще всё. ⏱️✨",
-  "Успех любит тишину, но в твоем случае хочется кричать «Ура!». 🎉",
-  "Задача выполнена безупречно. Инструкция по величию успешно выполнена. 📖👑",
-  "Мяу-молодец! Котик ставит жирный виртуальный лайк на эту карточку. 🐾👍",
-  "Великолепный результат! Твой внутренний перфекционист ликует. 🎨✨",
-  "Разнес эту задачу в щепки! Мощь и грация в одном флаконе. 🐆💪",
-  "Просто песня, а не выполнение! 5 баллов из 5 возможных. 🎵⭐",
-  "Задачка пала ниц перед твоим авторитетом. Поздравляю с победой! 🏆",
-  "Ну наконец-то! Этот пункт заслужил быть вычеркнутым с особой гордостью. 🖊️✨"
+  "Мяу-молодец! Котик ставит жирный виртуальный лайк на эту карточку. 🐾👍"
 ];
 
 const CALM_QUOTES = [
@@ -71,21 +33,13 @@ const TASK_JOKES = [
   "В списке задача «Купить хлеб». А мне рыбки купишь?",
   "Эта задача выглядит подозрительно... Надо почесать когтями.",
   "Пытаюсь закопать твою задачу в лоток, не благодари. 💩",
-  "А это точно нужно делать? Выглядит как ловушка ленивого человека.",
-  "Трогаю лапкой. Вроде не кусается, но доверия не внушает.",
-  "Ой, я случайно сдвинул твой дедлайн в прошлый вторник.",
-  "Твоя продуктивность меня пугает. Срочно скину эту карточку со стола!",
   "Эта задача пахнет прокрастинацией. Мое любимое блюдо! 😻",
-  "Давай сделаем вид, что мы этого пункта в списке не видели?",
-  "Дергаю за задачу... не отваливается. Крепко прибита.",
-  "Смотри, тут написано «Сделать вовремя». Какая смешная фантазия!",
-  "Если я долго буду смотреть на эту задачу, она сама выполнится? Нет? Жаль..."
+  "Твоя продуктивность меня пугает. Срочно скину эту карточку со стола!"
 ];
 
 const ICON_JOKES = [
   "Ой, какая кнопочка! А что будет, если я её лапкой тогось?",
   "Блестит! Точно украду и спрячу под диван.",
-  "Перетягиваю иконку на себя... Так, где моя доля?",
   "Почему эта кнопка не нажимается от моего взгляда? Безобразие!"
 ];
 
@@ -100,9 +54,7 @@ const THEMES = {
 const getRandomUnique = (array, lastUsed) => {
   if (array.length <= 1) return array[0];
   let choice;
-  do {
-    choice = array[Math.floor(Math.random() * array.length)];
-  } while (choice === lastUsed);
+  do { choice = array[Math.floor(Math.random() * array.length)]; } while (choice === lastUsed);
   return choice;
 };
 
@@ -126,7 +78,7 @@ const CAT_STATES = {
   INTERACTING: { id: 'interact', text: 'Цап-царап!' }
 };
 
-function InteractiveCat({ isActive }) {
+function InteractiveCat({ isActive, onAuthorClick }) {
   const [windowDims, setWindowDims] = useState({ w: window.innerWidth, h: window.innerHeight });
   
   useEffect(() => {
@@ -169,12 +121,8 @@ function InteractiveCat({ isActive }) {
 
         if (finalState.id === 'interact' && targetElementRef.current) {
           targetElementRef.current.classList.add('ui-shake-anim');
-          
-          // Увеличили время взаимодействия с объектами до 5 секунд (5000 мс)
           setTimeout(() => {
-            if (targetElementRef.current) {
-              targetElementRef.current.classList.remove('ui-shake-anim');
-            }
+            if (targetElementRef.current) targetElementRef.current.classList.remove('ui-shake-anim');
             if (catState.id !== 'drag') {
               setCatState(CAT_STATES.IDLE);
               dynamicTextRef.current = CAT_STATES.IDLE.text;
@@ -194,12 +142,10 @@ function InteractiveCat({ isActive }) {
     if (interactables.length > 0) {
       const target = interactables[Math.floor(Math.random() * interactables.length)];
       const rect = target.getBoundingClientRect();
-      
       const isTask = target.classList.contains('interactable-task');
       const jokeArray = isTask ? TASK_JOKES : ICON_JOKES;
       const randomJoke = overrideText || getRandomUnique(jokeArray, lastJokeRef.current);
       lastJokeRef.current = randomJoke;
-      
       const targetX = rect.left + (rect.width / 2) - 55; 
       const targetY = rect.top + (rect.height / 2) - 30; 
       
@@ -219,22 +165,19 @@ function InteractiveCat({ isActive }) {
   }, [hasWokenUp, isActive, triggerTaskInteraction]);
 
   useEffect(() => {
-    if (!hasWokenUp || isDragging || catState.id === 'sleep' || catState.id === 'eat' || catState.id === 'belly' || catState.id === 'interact') return;
+    if (!hasWokenUp || isDragging || ['sleep', 'eat', 'belly', 'interact'].includes(catState.id)) return;
 
     const wanderTimer = setInterval(() => {
       const r = Math.random();
-      
       if (r > 0.93) {
         dynamicTextRef.current = "Что-то я устал...";
         walkTo(BASE_X_CUSHION, window.innerHeight - CUSHION_BOTTOM - 60, CAT_STATES.SLEEPING);
         return;
       }
-
       if (r > 0.15) {
         triggerTaskInteraction();
         return;
       }
-
       const targetX = Math.max(30, Math.min(window.innerWidth - 120, 50 + Math.random() * (window.innerWidth - 150)));
       const targetY = Math.max(80, Math.min(window.innerHeight - 100, 50 + Math.random() * (window.innerHeight - 150)));
       dynamicTextRef.current = CAT_STATES.WALKING.text;
@@ -251,27 +194,21 @@ function InteractiveCat({ isActive }) {
     setCatState(CAT_STATES.DRAGGED);
     dynamicTextRef.current = CAT_STATES.DRAGGED.text;
     audioRef.current.pause();
-    
-    if (targetElementRef.current) {
-      targetElementRef.current.classList.remove('ui-shake-anim');
-    }
+    if (targetElementRef.current) targetElementRef.current.classList.remove('ui-shake-anim');
   };
 
   const handlePointerMove = useCallback((e) => {
     if (!isDragging) return;
     const clientX = e.clientX || (e.touches && e.touches[0].clientX);
     const clientY = e.clientY || (e.touches && e.touches[0].clientY);
-    
     const safeX = Math.max(10, Math.min(window.innerWidth - 120, clientX - 55));
     const safeY = Math.max(10, Math.min(window.innerHeight - 100, clientY - 40));
-    
     setPos({ x: safeX, y: safeY });
   }, [isDragging]);
 
   const handlePointerUp = useCallback(() => {
     if (!isDragging) return;
     setIsDragging(false);
-
     const cushionTargetY = window.innerHeight - CUSHION_BOTTOM - 60;
     const distToCushion = Math.hypot(pos.x - BASE_X_CUSHION, pos.y - cushionTargetY);
     
@@ -301,7 +238,7 @@ function InteractiveCat({ isActive }) {
   }, [isDragging, handlePointerMove, handlePointerUp]);
 
   const handlePet = () => {
-    if (isDragging || catState.id === 'eat' || catState.id === 'drag' || catState.id === 'sleep' || catState.id === 'interact') return;
+    if (isDragging || ['eat', 'drag', 'sleep', 'interact'].includes(catState.id)) return;
     setCatState(CAT_STATES.PETTING);
     dynamicTextRef.current = "Мурр... ладно, ты классный.";
     audioRef.current.currentTime = 0;
@@ -320,7 +257,6 @@ function InteractiveCat({ isActive }) {
     setIsFoodBowlFull(true);
     dynamicTextRef.current = "Ура, рыбов дали! 🐟";
     walkTo(BASE_X_BOWL + 10, window.innerHeight - BOWL_BOTTOM - 50, CAT_STATES.EATING, "Мррр, вкуснотища!");
-    
     setTimeout(() => {
       setIsFoodBowlFull(false);
       if (catState.id === 'eat') {
@@ -332,15 +268,8 @@ function InteractiveCat({ isActive }) {
 
   const renderCatSVG = () => {
     const isSleeping = catState.id === 'sleep';
-    const isDragged = catState.id === 'drag';
     const isBelly = catState.id === 'belly';
-    const isInteracting = catState.id === 'interact';
-    
-    const colorMain = "#E67E22";
-    const colorStripe = "#D35400";
-    const colorBelly = "#FAD7A1";
-    const colorOutline = "#5C2E00";
-    const colorEar = "#F5B7B1"; 
+    const colorMain = "#E67E22", colorStripe = "#D35400", colorBelly = "#FAD7A1", colorOutline = "#5C2E00", colorEar = "#F5B7B1"; 
 
     if (isSleeping) {
       return (
@@ -348,7 +277,6 @@ function InteractiveCat({ isActive }) {
           <g filter="drop-shadow(0px 5px 3px rgba(0,0,0,0.3))">
             <path d="M 20 65 C 20 30, 75 30, 80 60 C 85 85, 20 85, 20 65" fill={colorMain} stroke={colorOutline} strokeWidth="3" className="sleep-breathe" />
             <path d="M 40 45 Q 50 40 60 45" stroke={colorStripe} strokeWidth="3" fill="none" className="sleep-breathe"/>
-            <path d="M 45 53 Q 55 48 65 53" stroke={colorStripe} strokeWidth="3" fill="none" className="sleep-breathe"/>
             <path d="M 80 60 C 90 85, 10 90, 15 55" fill="none" stroke={colorMain} strokeWidth="12" strokeLinecap="round" />
             <path d="M 80 60 C 90 85, 10 90, 15 55" fill="none" stroke={colorOutline} strokeWidth="16" strokeLinecap="round" style={{zIndex:-1, strokeDasharray:"90 0", strokeDashoffset:"-5"}} />
             <circle cx="35" cy="55" r="16" fill={colorMain} stroke={colorOutline} strokeWidth="3" />
@@ -358,157 +286,47 @@ function InteractiveCat({ isActive }) {
             <path d="M 37 57 Q 40 60 43 57" stroke={colorOutline} strokeWidth="2" strokeLinecap="round" fill="none" />
             <circle cx="35" cy="62" r="1.5" fill="#E74C3C" />
             <text x="15" y="25" fill="#666" fontSize="16" fontWeight="bold" className="zzz-anim">Z</text>
-            <text x="5" y="15" fill="#666" fontSize="12" fontWeight="bold" className="zzz-anim" style={{animationDelay: '0.5s'}}>z</text>
           </g>
         </svg>
       );
     }
-
-    if (isDragged) {
-      return (
-        <svg width="80" height="130" viewBox="0 0 80 130">
-          <ellipse cx="40" cy="75" rx="18" ry="38" fill={colorMain} stroke={colorOutline} strokeWidth="3" />
-          <ellipse cx="40" cy="85" rx="12" ry="20" fill={colorBelly} />
-          <g transform="translate(25, 105)">
-            <ellipse cx="0" cy="0" rx="6" ry="16" fill={colorBelly} stroke={colorOutline} strokeWidth="3" />
-            <circle cx="0" cy="10" r="2.5" fill="#E74C3C" />
-          </g>
-          <g transform="translate(55, 105)">
-            <ellipse cx="0" cy="0" rx="6" ry="16" fill={colorBelly} stroke={colorOutline} strokeWidth="3" />
-            <circle cx="0" cy="10" r="2.5" fill="#E74C3C" />
-          </g>
-          <ellipse cx="28" cy="50" rx="4" ry="14" fill={colorBelly} stroke={colorOutline} strokeWidth="3" className="dangle-arm" />
-          <ellipse cx="52" cy="50" rx="4" ry="14" fill={colorBelly} stroke={colorOutline} strokeWidth="3" className="dangle-arm-alt" />
-          <path d="M 40 110 Q 25 140 55 125" stroke={colorMain} strokeWidth="8" strokeLinecap="round" fill="none" className="dangle-tail" />
-          <circle cx="40" cy="30" r="22" fill={colorMain} stroke={colorOutline} strokeWidth="3" />
-          <polygon points="22,18 15,-5 35,12" fill={colorEar} stroke={colorOutline} strokeWidth="2" strokeLinejoin="round" />
-          <polygon points="58,18 65,-5 45,12" fill={colorEar} stroke={colorOutline} strokeWidth="2" strokeLinejoin="round" />
-          <circle cx="32" cy="30" r="4" fill="#fff" stroke={colorOutline} strokeWidth="1" />
-          <circle cx="48" cy="30" r="4" fill="#fff" stroke={colorOutline} strokeWidth="1" />
-          <circle cx="32" cy="30" r="1.5" fill="#000" />
-          <circle cx="48" cy="30" r="1.5" fill="#000" />
-          <path d="M 36 38 Q 40 34 44 38" stroke={colorOutline} strokeWidth="2" fill="none" />
-        </svg>
-      );
-    }
-
-    if (isInteracting) {
-      return (
-        <svg width="100" height="120" viewBox="0 0 100 120">
-           <path d="M 40 105 Q 10 105 10 60" stroke={colorMain} strokeWidth="8" strokeLinecap="round" fill="none" className="interact-tail" />
-           <ellipse cx="50" cy="70" rx="22" ry="35" fill={colorMain} stroke={colorOutline} strokeWidth="3" />
-           <ellipse cx="50" cy="75" rx="14" ry="25" fill={colorBelly} />
-           <ellipse cx="35" cy="105" rx="8" ry="5" fill={colorBelly} stroke={colorOutline} strokeWidth="3" />
-           <ellipse cx="65" cy="105" rx="8" ry="5" fill={colorBelly} stroke={colorOutline} strokeWidth="3" />
-           <path d="M 35 55 Q 20 40 30 25" stroke={colorBelly} strokeWidth="8" strokeLinecap="round" fill="none" className="scratch-arm-1" />
-           <path d="M 65 55 Q 80 40 70 25" stroke={colorBelly} strokeWidth="8" strokeLinecap="round" fill="none" className="scratch-arm-2" />
-           <circle cx="50" cy="25" r="20" fill={colorMain} stroke={colorOutline} strokeWidth="3" />
-           <polygon points="35,12 30,-5 45,5" fill={colorEar} stroke={colorOutline} strokeWidth="2" strokeLinejoin="round" />
-           <polygon points="65,12 70,-5 55,5" fill={colorEar} stroke={colorOutline} strokeWidth="2" strokeLinejoin="round" />
-           <circle cx="43" cy="22" r="3.5" fill="#2ECC71" stroke={colorOutline} strokeWidth="1" />
-           <circle cx="57" cy="22" r="3.5" fill="#2ECC71" stroke={colorOutline} strokeWidth="1" />
-           <circle cx="43" cy="20" r="1.5" fill="#000" />
-           <circle cx="57" cy="20" r="1.5" fill="#000" />
-           <circle cx="50" cy="28" r="2" fill="#E74C3C" />
-           <path d="M 46 32 Q 50 38 54 32" stroke={colorOutline} strokeWidth="1.5" fill="none" />
-        </svg>
-      );
-    }
-
-    const transformBelly = isBelly ? "rotate(180) translate(0, -90)" : "";
-    const headBob = catState.id === 'eat' ? "eat-bob" : "";
-    
     return (
-      <svg width="110" height="95" viewBox="0 0 110 95" style={{ transform: transformBelly, transition: 'transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55)' }}>
+      <svg width="110" height="95" viewBox="0 0 110 95" style={{ transform: isBelly ? "rotate(180) translate(0, -90)" : "", transition: 'transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55)' }}>
         <path className="cat-tail" d="M 20 65 C 5 65, 0 30, 20 15" stroke={colorMain} strokeWidth="8" strokeLinecap="round" fill="none" />
         <ellipse cx="55" cy="55" rx="32" ry="24" fill={colorMain} stroke={colorOutline} strokeWidth="3" />
         <ellipse cx="55" cy="65" rx="22" ry="12" fill={colorBelly} />
-        
-        <g className={catState.id === 'walk' ? 'walk-leg-1' : ''}>
-          <ellipse cx="35" cy="78" rx="6" ry="12" fill={colorBelly} stroke={colorOutline} strokeWidth="3" />
-        </g>
-        <g className={catState.id === 'walk' ? 'walk-leg-2' : ''}>
-          <ellipse cx="50" cy="78" rx="6" ry="12" fill={colorBelly} stroke={colorOutline} strokeWidth="3" />
-        </g>
-        <g className={catState.id === 'walk' ? 'walk-leg-1' : ''}>
-          <ellipse cx="70" cy="78" rx="6" ry="12" fill={colorBelly} stroke={colorOutline} strokeWidth="3" />
-        </g>
-
-        <g className={headBob} style={{ transformOrigin: '80px 40px' }}>
+        <g className={catState.id === 'walk' ? 'walk-leg-1' : ''}><ellipse cx="35" cy="78" rx="6" ry="12" fill={colorBelly} stroke={colorOutline} strokeWidth="3" /></g>
+        <g className={catState.id === 'walk' ? 'walk-leg-2' : ''}><ellipse cx="50" cy="78" rx="6" ry="12" fill={colorBelly} stroke={colorOutline} strokeWidth="3" /></g>
+        <g className={catState.id === 'walk' ? 'walk-leg-1' : ''}><ellipse cx="70" cy="78" rx="6" ry="12" fill={colorBelly} stroke={colorOutline} strokeWidth="3" /></g>
+        <g className={catState.id === 'eat' ? "eat-bob" : ""} style={{ transformOrigin: '80px 40px' }}>
           <circle cx="80" cy="40" r="19" fill={colorMain} stroke={colorOutline} strokeWidth="3" />
           <polygon points="68,25 72,5 82,23" fill={colorEar} stroke={colorOutline} strokeWidth="2" strokeLinejoin="round" />
           <polygon points="85,23 95,5 92,25" fill={colorEar} stroke={colorOutline} strokeWidth="2" strokeLinejoin="round" />
           <ellipse cx="80" cy="48" rx="10" ry="7" fill={colorBelly} />
-          
           {isBelly ? (
-             <>
-               <path d="M72 38 Q 75 42 78 38" stroke={colorOutline} strokeWidth="2" strokeLinecap="round" fill="none" />
-               <path d="M82 38 Q 85 42 88 38" stroke={colorOutline} strokeWidth="2" strokeLinecap="round" fill="none" />
-             </>
+             <><path d="M72 38 Q 75 42 78 38" stroke={colorOutline} strokeWidth="2" strokeLinecap="round" fill="none" /><path d="M82 38 Q 85 42 88 38" stroke={colorOutline} strokeWidth="2" strokeLinecap="round" fill="none" /></>
           ) : (
-             <>
-               <circle cx="74" cy="37" r="3.5" fill="#2ECC71" stroke={colorOutline} strokeWidth="1" />
-               <circle cx="86" cy="37" r="3.5" fill="#2ECC71" stroke={colorOutline} strokeWidth="1" />
-               <circle cx="74" cy="37" r="1.5" fill="#000" />
-               <circle cx="86" cy="37" r="1.5" fill="#000" />
-             </>
+             <><circle cx="74" cy="37" r="3.5" fill="#2ECC71" stroke={colorOutline} strokeWidth="1" /><circle cx="86" cy="37" r="3.5" fill="#2ECC71" stroke={colorOutline} strokeWidth="1" /><circle cx="74" cy="37" r="1.5" fill="#000" /><circle cx="86" cy="37" r="1.5" fill="#000" /></>
           )}
           <circle cx="80" cy="45" r="2.5" fill="#E74C3C" /> 
-          
-          {catState.id === 'eat' ? (
-            <ellipse cx="80" cy="51" rx="4" ry="3" fill="#000" className="eat-mouth" />
-          ) : (
-            <path d="M 76 49 Q 80 53 84 49" stroke={colorOutline} strokeWidth="1.5" fill="none" />
-          )}
+          {catState.id === 'eat' ? <ellipse cx="80" cy="51" rx="4" ry="3" fill="#000" className="eat-mouth" /> : <path d="M 76 49 Q 80 53 84 49" stroke={colorOutline} strokeWidth="1.5" fill="none" />}
         </g>
       </svg>
     );
   };
 
   const textBubbleStyle = {
-    backgroundColor: '#ffffff', 
-    border: '1px solid #5C2E00', 
-    padding: '6px 10px', 
-    borderRadius: '12px', 
-    fontSize: '13px', 
-    fontWeight: 'bold', 
-    color: '#333',
-    position: 'absolute', 
-    zIndex: 10001, 
-    width: 'max-content',
-    maxWidth: '160px', 
-    whiteSpace: 'normal',
-    wordWrap: 'break-word',
-    textAlign: 'center',
-    lineHeight: '1.4',
-    boxShadow: '0 3px 8px rgba(0,0,0,0.15)',
-    opacity: catState.id === 'sleep' ? 0.6 : 1, 
-    transition: 'opacity 0.3s' 
+    backgroundColor: '#ffffff', border: '1px solid #5C2E00', padding: '6px 10px', borderRadius: '12px', fontSize: '13px', fontWeight: 'bold', color: '#333',
+    position: 'absolute', zIndex: 10001, width: 'max-content', maxWidth: '160px', textAlign: 'center', boxShadow: '0 3px 8px rgba(0,0,0,0.15)',
+    opacity: catState.id === 'sleep' ? 0.6 : 1, transition: 'opacity 0.3s' 
   };
 
   const catCenterX = pos.x + 55; 
-  
-  if (catCenterX < 90) { 
-    textBubbleStyle.left = `${-pos.x + 10}px`;
-    textBubbleStyle.right = 'auto';
-    textBubbleStyle.transform = 'none';
-  } else if (catCenterX > windowDims.w - 90) { 
-    textBubbleStyle.left = 'auto';
-    textBubbleStyle.right = `${-(windowDims.w - (pos.x + 110)) + 10}px`;
-    textBubbleStyle.transform = 'none';
-  } else { 
-    textBubbleStyle.left = '50%';
-    textBubbleStyle.right = 'auto';
-    textBubbleStyle.transform = 'translateX(-50%)';
-  }
-
-  if (pos.y < 80) {
-    textBubbleStyle.top = '100px';
-    textBubbleStyle.bottom = 'auto';
-  } else {
-    textBubbleStyle.top = 'auto';
-    textBubbleStyle.bottom = catState.id === 'drag' ? '145px' : '105px';
-  }
+  if (catCenterX < 90) { textBubbleStyle.left = `${-pos.x + 10}px`; textBubbleStyle.right = 'auto'; } 
+  else if (catCenterX > windowDims.w - 90) { textBubbleStyle.left = 'auto'; textBubbleStyle.right = `${-(windowDims.w - (pos.x + 110)) + 10}px`; } 
+  else { textBubbleStyle.left = '50%'; textBubbleStyle.transform = 'translateX(-50%)'; }
+  if (pos.y < 80) { textBubbleStyle.top = '100px'; textBubbleStyle.bottom = 'auto'; } 
+  else { textBubbleStyle.top = 'auto'; textBubbleStyle.bottom = catState.id === 'drag' ? '145px' : '105px'; }
 
   return (
     <>
@@ -533,69 +351,30 @@ function InteractiveCat({ isActive }) {
       </div>
 
       <div 
+        onClick={() => onAuthorClick && onAuthorClick()}
+        style={{ position: 'fixed', left: BASE_X_BOWL + 60, bottom: BOWL_BOTTOM, zIndex: 901, cursor: 'pointer', transition: 'transform 0.1s' }}
+        title="Покормить автора"
+        onMouseDown={e => e.currentTarget.style.transform = 'scale(0.9)'}
+        onMouseUp={e => e.currentTarget.style.transform = 'scale(1)'}
+      >
+        <svg width="50" height="30">
+          <path d="M 5 15 L 45 15 L 40 28 L 10 28 Z" fill="#FAD7A1" stroke="#E67E22" strokeWidth="2" strokeLinejoin="round" />
+          <text x="25" y="24" fontSize="9" fontWeight="800" fill="#D35400" textAnchor="middle" style={{fontFamily: 'Nunito, sans-serif'}}>АВТОР</text>
+        </svg>
+      </div>
+
+      <div 
         onPointerDown={handlePointerDown}
         onClick={handlePet}
         style={{ 
-          position: 'fixed', 
-          left: pos.x, 
-          top: pos.y, 
-          width: '110px', 
-          height: '95px',
-          zIndex: 9999, 
-          cursor: isDragging ? 'grabbing' : 'grab',
-          transition: isDragging ? 'none' : 'left 1.1s linear, top 1.1s linear',
-          userSelect: 'none',
-          touchAction: 'none'
+          position: 'fixed', left: pos.x, top: pos.y, width: '110px', height: '95px', zIndex: 9999, 
+          cursor: isDragging ? 'grabbing' : 'grab', transition: isDragging ? 'none' : 'left 1.1s linear, top 1.1s linear',
+          userSelect: 'none', touchAction: 'none'
         }}
       >
-        <div style={{ 
-          transform: `scaleX(${isFacingLeft ? -1 : 1})`,
-          filter: 'drop-shadow(0px 8px 4px rgba(0,0,0,0.2))' 
-        }}>
-          {renderCatSVG()}
-        </div>
-
-        <div style={textBubbleStyle}>
-          {dynamicTextRef.current}
-        </div>
+        <div style={{ transform: `scaleX(${isFacingLeft ? -1 : 1})`, filter: 'drop-shadow(0px 8px 4px rgba(0,0,0,0.2))' }}>{renderCatSVG()}</div>
+        <div style={textBubbleStyle}>{dynamicTextRef.current}</div>
       </div>
-
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap');
-
-        .ui-shake-anim { animation: uiShake 0.3s infinite alternate ease-in-out; border-color: #E67E22 !important; box-shadow: 0 0 10px rgba(230, 126, 34, 0.6); }
-        @keyframes uiShake { 0% { transform: rotate(-3deg) translate(3px, 1px); } 100% { transform: rotate(3deg) translate(-3px, -1px); } }
-
-        .sleep-breathe { animation: breathe 3.5s infinite alternate ease-in-out; transform-origin: center; }
-        @keyframes breathe { 0% { transform: scale(1); } 100% { transform: scale(1.03); } }
-        
-        .zzz-anim { animation: floatZ 2.5s infinite ease-in-out; }
-        @keyframes floatZ { 0% { transform: translateY(0) scale(0.8); opacity: 0; } 50% { transform: translateY(-15px) scale(1.2); opacity: 1; } 100% { transform: translateY(-30px) scale(1); opacity: 0; } }
-        
-        .walk-leg-1 { animation: walk1 0.2s infinite alternate; transform-origin: center; }
-        .walk-leg-2 { animation: walk2 0.2s infinite alternate; transform-origin: center; }
-        @keyframes walk1 { 0% { transform: rotate(20deg); } 100% { transform: rotate(-20deg); } }
-        @keyframes walk2 { 0% { transform: rotate(-20deg); } 100% { transform: rotate(20deg); } }
-        
-        .cat-tail { animation: tailSwing 2.5s infinite alternate ease-in-out; transform-origin: 20px 65px; }
-        @keyframes tailSwing { 0% { transform: rotate(-15deg); } 100% { transform: rotate(25deg); } }
-        
-        .dangle-arm { animation: dangle 0.5s infinite alternate ease-in-out; transform-origin: 28px 50px; }
-        .dangle-arm-alt { animation: dangle 0.4s infinite alternate-reverse ease-in-out; transform-origin: 52px 50px; }
-        .dangle-tail { animation: dangle 0.6s infinite alternate ease-in-out; transform-origin: 40px 110px; }
-        @keyframes dangle { 0% { transform: rotate(-8deg); } 100% { transform: rotate(8deg); } }
-
-        .eat-bob { animation: bob 0.3s infinite alternate ease-in; }
-        @keyframes bob { 0% { transform: rotate(0deg); } 100% { transform: rotate(12deg); } }
-        .eat-mouth { animation: munch 0.15s infinite alternate; }
-        @keyframes munch { 0% { transform: scaleY(1); } 100% { transform: scaleY(2.5); } }
-
-        .scratch-arm-1 { animation: scratch 0.15s infinite alternate ease-in; transform-origin: 35px 55px; }
-        .scratch-arm-2 { animation: scratch 0.15s infinite alternate-reverse ease-in; transform-origin: 65px 55px; }
-        @keyframes scratch { 0% { transform: translateY(0) rotate(0deg); } 100% { transform: translateY(-12px) rotate(20deg); } }
-        .interact-tail { animation: angryTail 0.25s infinite alternate ease-in-out; transform-origin: 40px 105px; }
-        @keyframes angryTail { 0% { transform: rotate(-8deg); } 100% { transform: rotate(8deg); } }
-      `}</style>
     </>
   );
 }
@@ -605,8 +384,8 @@ function InteractiveCat({ isActive }) {
 // ==========================================
 export default function App() {
   const todayStr = new Date().toISOString().split('T')[0];
-
   const [showWelcomeModal, setShowWelcomeModal] = useState(false);
+  const [showDonationModal, setShowDonationModal] = useState(false);
 
   useEffect(() => {
     const isFirstLaunch = localStorage.getItem('zabyvashka_first_launch_done');
@@ -616,56 +395,48 @@ export default function App() {
     }
   }, []);
 
+  const requestNotificationPermission = () => {
+    if ('Notification' in window) {
+      Notification.requestPermission().then(permission => {
+        if (permission === 'granted') {
+          new Notification("Уведомления включены! 🎉", { body: "Теперь я буду напоминать о важных делах." });
+        }
+      });
+    }
+  };
+
   const [tasks, setTasks] = useState(() => {
     const savedTasks = localStorage.getItem('zabyvashka_tasks');
-    if (savedTasks) {
-      return JSON.parse(savedTasks).map(t => ({ ...t, encouragementPhrase: "" }));
-    }
+    if (savedTasks) return JSON.parse(savedTasks).map(t => ({ ...t, encouragementPhrase: "" }));
     return [
-      { id: 1, text: "Похвалить себя за вчерашнее", date: todayStr, reminderTime: "", completed: false, image: null, drawing: null, encouragementPhrase: "" },
-      { id: 2, text: "Выпить чаю/кофе", date: todayStr, reminderTime: "15:00", completed: false, image: null, drawing: null, encouragementPhrase: "" },
+      { id: 1, text: "Похвалить себя за вчерашнее", date: todayStr, reminderTime: "", completed: false, image: null, drawing: null, encouragementPhrase: "" }
     ];
   });
   
-  useEffect(() => {
-    localStorage.setItem('zabyvashka_tasks', JSON.stringify(tasks));
-  }, [tasks]);
+  useEffect(() => { localStorage.setItem('zabyvashka_tasks', JSON.stringify(tasks)); }, [tasks]);
 
   const [inputText, setInputText] = useState('');
   const [inputDate, setInputDate] = useState(todayStr);
   const [inputReminderTime, setInputReminderTime] = useState('');
-  
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
-  
   const [currentTheme, setCurrentTheme] = useState(() => localStorage.getItem('zabyvashka_theme') || 'peach');
   const [isThemeMenuOpen, setIsThemeMenuOpen] = useState(false);
 
-  useEffect(() => {
-    localStorage.setItem('zabyvashka_theme', currentTheme);
-  }, [currentTheme]);
+  useEffect(() => { localStorage.setItem('zabyvashka_theme', currentTheme); }, [currentTheme]);
 
   const [isDrawingOpen, setIsDrawingOpen] = useState(false);
   const [isReminderMenuOpen, setIsReminderMenuOpen] = useState(false);
   
   const canvasRef = useRef(null);
   const [isDrawing, setIsDrawing] = useState(false);
+
   const lastGlobalReminderRef = useRef('');
   const lastEncouragementRef = useRef('');
 
-  const requestNotificationPermission = () => {
-    if ('Notification' in window) {
-      Notification.requestPermission().then(permission => {
-        if (permission === 'granted') new Notification("Уведомления включены! 🎉");
-      });
-    }
-  };
-
   useEffect(() => {
-    const quoteTimer = setInterval(() => {
-      setCurrentQuoteIndex(prev => (prev + 1) % CALM_QUOTES.length);
-    }, 8000);
+    const quoteTimer = setInterval(() => setCurrentQuoteIndex(prev => (prev + 1) % CALM_QUOTES.length), 8000);
     return () => clearInterval(quoteTimer);
   }, []);
 
@@ -687,7 +458,7 @@ export default function App() {
         const pendingTasksCount = tasks.filter(t => !t.completed && t.date <= currentDateStr).length;
         if (pendingTasksCount > 0 && 'Notification' in window && Notification.permission === 'granted') {
           const randomPhrase = getRandomUnique(GENTLE_REMINDERS, lastGlobalReminderRef.current);
-          new Notification("Забывашка-планер 🐾", { body: `У тебя ${pendingTasksCount} незавершённых дел(а). ${randomPhrase}`, icon: '🐱' });
+          new Notification("Забывашка-планер 🐾", { body: `У тебя ${pendingTasksCount} незавершённых дел(а). ${randomPhrase}` });
           lastGlobalReminderRef.current = timeStr;
         }
       }
@@ -700,14 +471,7 @@ export default function App() {
   const addTask = (e) => {
     e.preventDefault();
     if (!inputText.trim()) return;
-    const newTask = {
-      id: Date.now(),
-      text: inputText,
-      date: inputDate || todayStr,
-      reminderTime: inputReminderTime,
-      completed: false, image: null, drawing: null, encouragementPhrase: ""
-    };
-    setTasks([newTask, ...tasks]);
+    setTasks([{ id: Date.now(), text: inputText, date: inputDate || todayStr, reminderTime: inputReminderTime, completed: false, image: null, drawing: null, encouragementPhrase: "" }, ...tasks]);
     setInputText(''); setInputReminderTime(''); setInputDate(todayStr);
   };
 
@@ -728,15 +492,19 @@ export default function App() {
 
   const deleteTask = (id) => setTasks(tasks.filter(t => t.id !== id));
 
+  // Запрос разрешения на доступ к галерее через выбор файла
   const handleImageUpload = (id, e) => {
     const file = e.target.files[0];
     if (file) {
       const reader = new FileReader();
-      reader.onloadend = () => setTasks(tasks.map(t => t.id === id ? { ...t, image: reader.result } : t));
+      reader.onloadend = () => {
+        setTasks(tasks.map(t => t.id === id ? { ...t, image: reader.result } : t));
+      };
       reader.readAsDataURL(file);
     }
   };
 
+  // Функции для рисования скетча
   const startDrawing = (e) => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -809,10 +577,36 @@ export default function App() {
               Добро пожаловать в «Забывашку-планер»! Я твой личный пушистый ассистент. Буду охранять твои списки дел, забавно подбадривать за выполненные задачи и вредничать, если будешь долго прокрастинировать. Давай свершим парочку великих дел! 🚀
             </p>
             <button 
-              onClick={() => setShowWelcomeModal(false)} 
+              onClick={() => {
+                setShowWelcomeModal(false);
+                requestNotificationPermission();
+              }} 
               style={{ ...styles.modalSaveBtn, backgroundColor: theme.border, color: theme.bg, width: '100%', fontSize: '15px' }}
             >
               Погнали шкодить! 🐾
+            </button>
+          </div>
+        </div>
+      )}
+
+      {showDonationModal && (
+        <div style={styles.modalOverlay}>
+          <div style={{ ...styles.modalContent, backgroundColor: theme.bg, borderColor: theme.border, maxWidth: '320px', padding: '20px' }}>
+            <div style={{ fontSize: '42px', marginBottom: '8px' }}>👨‍💻🐟</div>
+            <h2 style={{ margin: '0 0 10px 0', fontSize: '19px', color: theme.border, fontFamily: "'Nunito', sans-serif" }}>Покормить автора</h2>
+            <p style={{ fontSize: '14px', lineHeight: '1.5', color: theme.text, marginBottom: '15px' }}>
+              Покормите автора — он тоже котик и очень старался для вас! И тоже хочет кушать, как его любимая кошечка и котята. 🐾
+            </p>
+            <div style={{ padding: '12px', backgroundColor: theme.card2, borderRadius: '10px', border: `1px dashed ${theme.border}`, marginBottom: '20px' }}>
+              <span style={{ fontSize: '13px', display: 'block', marginBottom: '5px', color: theme.subtext }}>Перевод по СБП:</span>
+              <strong style={{ fontSize: '18px', letterSpacing: '1px', display: 'block', color: theme.text }}>+7 (918) 669-97-65</strong>
+              <span style={{ fontSize: '12px', display: 'block', marginTop: '5px', color: theme.subtext }}>Сбербанк</span>
+            </div>
+            <button 
+              onClick={() => setShowDonationModal(false)} 
+              style={{ ...styles.modalSaveBtn, backgroundColor: theme.border, color: theme.bg, width: '100%', fontSize: '15px' }}
+            >
+              Мур-мур, спасибо! ❤️
             </button>
           </div>
         </div>
@@ -832,11 +626,9 @@ export default function App() {
       <form onSubmit={addTask} style={styles.formRow}>
         <input type="text" placeholder="✍️ Новая задача..." value={inputText} onChange={(e) => setInputText(e.target.value)}
           style={{ ...styles.input, backgroundColor: theme.card1, borderColor: theme.border, color: theme.text, flex: 1, minWidth: 0 }} />
-        
         <div style={{ position: 'relative', flexShrink: 0 }}>
           <button type="button" onClick={() => setIsReminderMenuOpen(!isReminderMenuOpen)} 
             style={{ ...styles.iconBtn, height: '36px', width: '36px', borderColor: theme.border, backgroundColor: theme.card1, color: theme.text, padding: 0 }}>🗓️ {inputReminderTime && <span style={styles.activeDot}></span>}</button>
-
           {isReminderMenuOpen && (
             <div style={{ ...styles.reminderMenu, backgroundColor: theme.card1, borderColor: theme.border, color: theme.text }}>
               <label style={{ fontSize: '13px', display: 'block', marginBottom: '4px' }}>Дата:</label>
@@ -850,7 +642,6 @@ export default function App() {
             </div>
           )}
         </div>
-
         <button type="submit" style={{ ...styles.addButton, backgroundColor: theme.border, color: theme.bg, flexShrink: 0 }}>＋</button>
       </form>
 
@@ -882,17 +673,14 @@ export default function App() {
                   const cardBg = index % 2 === 0 ? theme.card1 : theme.card2;
                   const completedBg = currentTheme === 'dark' ? '#111' : '#f0f0f0';
                   const encBg = index % 2 === 0 ? 'rgba(255, 182, 193, 0.18)' : 'rgba(135, 206, 235, 0.18)'; 
-
                   return (
                     <div className="interactable-task" key={task.id} style={{ ...styles.keepCard, opacity: task.completed ? 0.75 : 1, backgroundColor: task.completed ? completedBg : cardBg, borderColor: theme.border }}>
                       <div style={styles.cardHeader}>
                         <div style={styles.taskLeft} onClick={() => toggleTask(task.id)}>
                           <input type="checkbox" checked={task.completed} onChange={() => {}} style={{ ...styles.checkbox, accentColor: theme.border }} />
                           <div>
-                            <span style={{ textDecoration: task.completed ? 'line-through' : 'none', color: task.completed ? theme.subtext : theme.text, fontSize: '16px', wordBreak: 'break-word', fontWeight: task.completed ? 'normal' : '500', display: 'block' }}>
-                              {task.text}
-                            </span>
-                            {task.reminderTime && <span style={{ ...styles.timeTag, color: theme.subtext }}>⏰ Напоминание в {task.reminderTime}</span>}
+                            <span style={{ textDecoration: task.completed ? 'line-through' : 'none', color: task.completed ? theme.subtext : theme.text, fontSize: '16px', display: 'block' }}>{task.text}</span>
+                            {task.reminderTime && <span style={{ ...styles.timeTag, color: theme.subtext }}>⏰ {task.reminderTime}</span>}
                           </div>
                         </div>
                         <button onClick={() => deleteTask(task.id)} style={{ ...styles.deleteButton, color: theme.text }}>×</button>
@@ -907,7 +695,7 @@ export default function App() {
 
                       <div style={{ ...styles.cardFooter, borderTopColor: theme.border }}>
                         <label style={{ ...styles.uploadLabel, borderColor: theme.border, backgroundColor: theme.card1, color: theme.text }}>
-                          📷 +Фото <input type="file" accept="image/*" onChange={(e) => handleImageUpload(task.id, e)} style={{display: 'none'}} />
+                          📷 Галерея <input type="file" accept="image/*" onChange={(e) => handleImageUpload(task.id, e)} style={{display: 'none'}} />
                         </label>
                       </div>
                     </div>
@@ -919,7 +707,7 @@ export default function App() {
         )}
       </div>
       
-      <InteractiveCat isActive={!showWelcomeModal} />
+      <InteractiveCat isActive={!showWelcomeModal && !showDonationModal} onAuthorClick={() => setShowDonationModal(true)} />
     </div>
   );
 }
@@ -928,29 +716,20 @@ const styles = {
   container: { width: '100%', minHeight: '100vh', margin: 0, padding: '12px', fontFamily: '-apple-system, BlinkMacSystemFont, sans-serif', boxSizing: 'border-box', transition: 'all 0.3s ease', paddingBottom: '120px' },
   header: { marginBottom: '12px', borderBottom: '1px solid', paddingBottom: '8px', position: 'relative' },
   topRow: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '8px' },
-  title: { 
-    fontSize: '18px', 
-    fontWeight: '800', 
-    margin: 0, 
-    transition: 'color 0.3s ease',
-    whiteSpace: 'nowrap',
-    overflow: 'hidden',
-    textOverflow: 'ellipsis',
-    fontFamily: "'Nunito', sans-serif" 
-  },
+  title: { fontSize: '18px', fontWeight: '800', margin: 0, fontFamily: "'Nunito', sans-serif" },
   headerRight: { display: 'flex', alignItems: 'center', gap: '4px' },
-  iconBtn: { background: 'none', border: '1px solid', borderRadius: '8px', padding: '5px 6px', fontSize: '14px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', boxSizing: 'border-box' },
+  iconBtn: { background: 'none', border: '1px solid', borderRadius: '8px', padding: '5px 6px', fontSize: '14px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' },
   themeMenu: { position: 'absolute', top: '100%', right: '0', border: '1px solid', borderRadius: '12px', padding: '8px', zIndex: 10, boxShadow: '0 4px 12px rgba(0,0,0,0.2)' },
   themeOption: { padding: '8px 12px', cursor: 'pointer', fontSize: '15px', borderRadius: '6px' },
   quoteCard: { padding: '10px 14px', borderRadius: '12px', marginBottom: '12px', border: '1px solid' },
   quoteText: { margin: 0, fontSize: '13px', fontStyle: 'italic', textAlign: 'center' },
   searchBox: { marginBottom: '10px' },
   formRow: { display: 'flex', gap: '6px', marginBottom: '8px', alignItems: 'center', width: '100%', boxSizing: 'border-box' },
-  input: { padding: '8px 10px', borderRadius: '10px', border: '1px solid', fontSize: '13px', outline: 'none', boxSizing: 'border-box', transition: 'all 0.3s' },
+  input: { padding: '8px 10px', borderRadius: '10px', border: '1px solid', fontSize: '13px', outline: 'none', boxSizing: 'border-box' },
   addButton: { border: 'none', width: '36px', height: '36px', borderRadius: '10px', cursor: 'pointer', fontSize: '18px', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center' },
   activeDot: { position: 'absolute', top: '2px', right: '2px', width: '7px', height: '7px', backgroundColor: '#4caf50', borderRadius: '50%' },
   reminderMenu: { position: 'absolute', top: '110%', right: 0, padding: '12px', borderRadius: '12px', border: '1px solid', zIndex: 10, width: '180px', boxShadow: '0 4px 12px rgba(0,0,0,0.2)' },
-  drawOpenButton: { width: '100%', background: 'none', border: '1px dashed', padding: '8px', borderRadius: '10px', fontSize: '12px', fontWeight: '500', cursor: 'pointer', marginBottom: '10px', boxSizing: 'border-box' },
+  drawOpenButton: { width: '100%', background: 'none', border: '1px dashed', padding: '8px', borderRadius: '10px', fontSize: '12px', fontWeight: '500', cursor: 'pointer', marginBottom: '10px' },
   modalOverlay: { position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0,0,0,0.6)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1000 },
   modalContent: { padding: '16px', borderRadius: '16px', textAlign: 'center', boxShadow: '0 4px 15px rgba(0,0,0,0.3)', border: '1px solid' },
   canvasStyle: { border: '1px solid', borderRadius: '8px', cursor: 'crosshair', touchAction: 'none' },
@@ -967,20 +746,7 @@ const styles = {
   checkbox: { width: '18px', height: '18px', cursor: 'pointer', marginTop: '2px' },
   timeTag: { fontSize: '11px', marginTop: '3px', display: 'inline-block' },
   deleteButton: { background: 'none', border: 'none', cursor: 'pointer', fontSize: '20px', padding: '0 4px' },
-  encouragementBox: { 
-    marginTop: '8px', 
-    padding: '8px 10px', 
-    borderRadius: '10px', 
-    fontSize: '13px', 
-    fontStyle: 'italic', 
-    border: '1px solid',
-    wordBreak: 'break-word',
-    overflowWrap: 'break-word',
-    whiteSpace: 'pre-wrap',
-    lineHeight: '1.4',
-    width: '100%',
-    boxSizing: 'border-box'
-  },
+  encouragementBox: { marginTop: '8px', padding: '8px 10px', borderRadius: '10px', fontSize: '13px', fontStyle: 'italic', border: '1px solid', wordBreak: 'break-word', lineHeight: '1.4' },
   attachedImage: { width: '100%', maxHeight: '150px', objectFit: 'cover', borderRadius: '8px', marginTop: '8px', border: '1px solid' },
   cardFooter: { display: 'flex', justifyContent: 'flex-end', alignItems: 'center', marginTop: '8px', paddingTop: '6px', borderTop: '1px solid' },
   uploadLabel: { fontSize: '12px', cursor: 'pointer', padding: '4px 8px', borderRadius: '6px', border: '1px solid' },
