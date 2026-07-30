@@ -1,0 +1,16 @@
+{
+  "name": "Забывашка-планер",
+  "short_name": "Забывашка",
+  "start_url": "/zabyvashka/",
+  "display": "standalone",
+  "background_color": "#fbf8f3",
+  "theme_color": "#333333",
+  "description": "Твой личный пушистый планер задач с котиком",
+  "icons": [
+    {
+      "src": "https://img.icons8.com/color/512/cat.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
