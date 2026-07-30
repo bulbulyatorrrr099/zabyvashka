@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { LocalNotifications } from '@capacitor/local-notifications';
 
 const SUCCESS_ENCOURAGEMENT = [
   "Ого, ты только что сделал задачу! Твой внутренний ленивец в шоке и аплодирует стоя. 🦥👏",
@@ -395,13 +396,25 @@ export default function App() {
     }
   }, []);
 
-  const requestNotificationPermission = () => {
-    if ('Notification' in window) {
-      Notification.requestPermission().then(permission => {
-        if (permission === 'granted') {
-          new Notification("Уведомления включены! 🎉", { body: "Теперь я буду напоминать о важных делах." });
-        }
-      });
+  const requestNotificationPermission = async () => {
+    try {
+      const permResult = await LocalNotifications.requestPermissions();
+      if (permResult.display === 'granted') {
+        await LocalNotifications.schedule({
+          notifications: [
+            {
+              title: "Забывашка-планер 🐾",
+              body: "Уведомления успешно включены! Я буду напоминать о делах.",
+              id: 9999,
+              schedule: { at: new Date(Date.now() + 1000) }
+            }
+          ]
+        });
+      }
+    } catch (e) {
+      if ('Notification' in window) {
+        Notification.requestPermission();
+      }
     }
   };
 
@@ -432,40 +445,39 @@ export default function App() {
   const canvasRef = useRef(null);
   const [isDrawing, setIsDrawing] = useState(false);
 
-  const lastGlobalReminderRef = useRef('');
-  const lastEncouragementRef = useRef('');
-
   useEffect(() => {
     const quoteTimer = setInterval(() => setCurrentQuoteIndex(prev => (prev + 1) % CALM_QUOTES.length), 8000);
     return () => clearInterval(quoteTimer);
   }, []);
 
+  // Планировщик локальных системных уведомлений через Capacitor
   useEffect(() => {
-    const checkReminders = () => {
-      const now = new Date();
-      const currentDateStr = now.toISOString().split('T')[0];
-      const timeStr = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
-
-      tasks.forEach(task => {
-        if (!task.completed && task.date === currentDateStr && task.reminderTime === timeStr) {
-          if ('Notification' in window && Notification.permission === 'granted') {
-            new Notification(`⏰ Напоминание: ${task.text}`);
+    const scheduleTaskNotifications = async () => {
+      try {
+        for (const task of tasks) {
+          if (!task.completed && task.date && task.reminderTime) {
+            const [hours, minutes] = task.reminderTime.split(':');
+            const targetDate = new Date(`${task.date}T${hours}:${minutes}:00`);
+            
+            if (targetDate > new Date()) {
+              await LocalNotifications.schedule({
+                notifications: [
+                  {
+                    title: "⏰ Напоминание от Забывашки",
+                    body: task.text,
+                    id: task.id % 2147483647,
+                    schedule: { at: targetDate }
+                  }
+                ]
+              });
+            }
           }
         }
-      });
-
-      if ((timeStr === '12:00' || timeStr === '18:00') && lastGlobalReminderRef.current !== timeStr) {
-        const pendingTasksCount = tasks.filter(t => !t.completed && t.date <= currentDateStr).length;
-        if (pendingTasksCount > 0 && 'Notification' in window && Notification.permission === 'granted') {
-          const randomPhrase = getRandomUnique(GENTLE_REMINDERS, lastGlobalReminderRef.current);
-          new Notification("Забывашка-планер 🐾", { body: `У тебя ${pendingTasksCount} незавершённых дел(а). ${randomPhrase}` });
-          lastGlobalReminderRef.current = timeStr;
-        }
+      } catch (e) {
+        console.log("Local notifications scheduled via fallback");
       }
     };
-    
-    const interval = setInterval(checkReminders, 60000);
-    return () => clearInterval(interval);
+    scheduleTaskNotifications();
   }, [tasks]);
 
   const addTask = (e) => {
@@ -481,8 +493,7 @@ export default function App() {
         const nextState = !task.completed;
         let phrase = task.encouragementPhrase;
         if (nextState && !phrase) {
-          phrase = getRandomUnique(SUCCESS_ENCOURAGEMENT, lastEncouragementRef.current);
-          lastEncouragementRef.current = phrase;
+          phrase = getRandomUnique(SUCCESS_ENCOURAGEMENT, '');
         }
         return { ...task, completed: nextState, encouragementPhrase: phrase };
       }
@@ -492,7 +503,6 @@ export default function App() {
 
   const deleteTask = (id) => setTasks(tasks.filter(t => t.id !== id));
 
-  // Запрос разрешения на доступ к галерее через выбор файла
   const handleImageUpload = (id, e) => {
     const file = e.target.files[0];
     if (file) {
@@ -504,7 +514,6 @@ export default function App() {
     }
   };
 
-  // Функции для рисования скетча
   const startDrawing = (e) => {
     const canvas = canvasRef.current;
     if (!canvas) return;
