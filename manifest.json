@@ -10,9 +10,16 @@
   "theme_color": "#333333",
   "icons": [
     {
-      "src": "/zabyvashka/vite.svg",
-      "type": "image/svg+xml",
-      "sizes": "512x512"
+      "src": "/zabyvashka/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/zabyvashka/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "id": "/zabyvashka/",
